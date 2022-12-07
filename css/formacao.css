@@ -51,7 +51,7 @@
 .faculdade {
   flex: 1;
   background-color: black;
-padding: 20px;
+  padding: 20px;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
@@ -133,7 +133,7 @@ padding: 20px;
   justify-content: space-between;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
   .formacao-container {
     grid-template-columns: 1fr;
     padding: 60px 20px;
@@ -145,7 +145,7 @@ padding: 20px;
   .formacao-texto {
     font-size: 1.25rem;
   }
-  .formacao-extra h3::before{
+  .formacao-extra h3::before {
     position: initial;
     margin-bottom: 10px;
   }
